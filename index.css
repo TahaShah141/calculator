@@ -18,7 +18,7 @@ body {
 
 .screen {
     flex: 1;
-    background-color: rgb(41, 143, 41);
+    background-color: #186c18;
     margin: 10px;
 }
 
@@ -53,6 +53,45 @@ body {
 .button, .buttons {
     border-radius: 5px;
 }
+
 .button:hover {
     background-color: #333;
+    scale: 1.05;
+}
+
+.operator:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.equals:hover {
+    background-color: black;
+    color: orange;
+    border-color: orange;
+}
+
+.control:hover {
+    background-color: #000;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.history, .result {
+    text-align: right;
+    margin: 5px 15px;
+}
+
+.history {
+    flex: 1;
+    color: #BBB;
+}
+
+.result {
+    flex: 2;
+    font-size: 35px;
+    color: #EEE;
 }
