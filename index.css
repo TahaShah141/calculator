@@ -40,7 +40,7 @@ body {
     display: flex;
 }
 
-.button {
+button {
     flex: 1;
     font-size: 20px;
     margin: 4px;
@@ -50,11 +50,11 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.button, .buttons {
+button, .buttons {
     border-radius: 5px;
 }
 
-.button:hover {
+button:hover {
     background-color: #333;
     scale: 1.05;
 }
